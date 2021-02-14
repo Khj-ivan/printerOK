@@ -1,0 +1,53 @@
+body{
+margin: 10px;
+padding: 10px;
+background: url(../img/nature.jpg), no-repeat;
+background-size: 90%;
+}
+header{
+  display: flex;
+color: white;
+}
+
+.content{
+
+height: 450px;
+}
+.menu{
+  width: 80vw;
+  display: flex;
+align-items: center;
+  justify-content: space-around;
+font-family: fantasy;
+}
+  A
+  {
+  color: white;
+    text-decoration: none;
+   }
+   .chat-help{
+     position: fixed;
+     bottom: 100px;
+     right: 50px;
+     background-color: white;
+     width: 250px;
+     height:50px;
+     border-radius: 5%;
+     }
+   .bottom{
+margin-left: -20px;
+     width: 50px;
+     height: 50px;
+     border-radius:100%;
+     background-color: #5f8806;
+
+   }
+footer{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+
+  height: 30px;
+  width: 100vw;
+  background-color: black;
+}
